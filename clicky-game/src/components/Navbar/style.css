@@ -1,0 +1,7 @@
+.nav-bar {
+  background: #5133a4;
+  color: #fff;
+  font-weight: 900;
+  font-size: calc(10px + 14 * (100vw - 320px)/ 800);
+}
+
