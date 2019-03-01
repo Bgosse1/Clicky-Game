@@ -3,6 +3,8 @@ import './App.css';
 import NavBar from "./components/Navbar/index"
 import Wrapper from "./components/Wrapper";
 import Jumbotron from "./components/Jumbotron";
+import Figure from "./components/Figure";
+
 class App extends Component {
   render() {
     return (
@@ -11,6 +13,7 @@ class App extends Component {
       <NavBar  />
       <Jumbotron/>
       <Wrapper>
+        <Figure></Figure>
       </Wrapper>
       
         {/* <header className="App-header">
