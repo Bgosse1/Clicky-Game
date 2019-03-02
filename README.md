@@ -6,7 +6,7 @@ This application was built with React. The UI is broken up into a differnet comp
 
 ![Clicky-Game](./clicky-game/public/assets/images/screenshot.png)
 
-[Deployed Site](https://sheltered-gorge-46172.herokuapp.com/)
+[Deployed Site](https://bgosse1.github.io/Clicky-Game/)
 
 * The application will render a set of 12 images and each image should only be clicked once.
 
