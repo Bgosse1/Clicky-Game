@@ -1,17 +1,19 @@
-import React from "react";
+import React, {Component} from "react";
 import { Figure } from "react-bootstrap";
 
-function FigureImage(props) {
-  return (
-    <Figure onClick={() => props.clickHandler(props.id)}>
-        <Figure.Image
-          width={170}
-          height={170}
-          alt={props.name}
-          src={props.image}
-        />
-      </Figure>
-  );
+class FigureImage extends Component {
+  render() {
+    return (
+      <Figure onClick={() => this.props.clickHandler(this.props.id)}>
+          <Figure.Image
+            width={170}
+            height={170}
+            alt={this.props.name}
+            src={this.props.image}
+          />
+        </Figure>
+    );
+  }
 }
 
 export default FigureImage;
