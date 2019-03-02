@@ -3,11 +3,11 @@ import { Figure } from "react-bootstrap";
 
 function FigureImage(props) {
   return (
-    <Figure>
+    <Figure onClick={() => props.clickHandler(props.id)}>
         <Figure.Image
-          width={171}
-          height={180}
-          alt="171x180"
+          width={170}
+          height={170}
+          alt={props.name}
           src={props.image}
         />
       </Figure>
